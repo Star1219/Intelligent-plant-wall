@@ -1,26 +1,31 @@
-ÊµÑéÆ÷²Ä:
-	Ì½Ë÷ÕßSTM32F4¿ª·¢°å
+å®žéªŒå™¨æ:
+	æŽ¢ç´¢è€…STM32F4å¼€å‘æ¿
 	
-ÊµÑéÄ¿µÄ:
-	Ñ§Ï°STM32×Ô´øRTCµÄÊ¹ÓÃ
+å®žéªŒç›®çš„:
+	å­¦ä¹ STM32è‡ªå¸¦RTCçš„ä½¿ç”¨
 	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPF9)
-	2,´®¿Ú1(²¨ÌØÂÊ:115200,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	3,ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýFSMCÇý¶¯,FSMC_NE4½ÓLCDÆ¬Ñ¡/A6½ÓRS) 
-	4,RTC(ÊµÊ±Ê±ÖÓ)
+ç¡¬ä»¶èµ„æº:
+	1,DS0(è¿žæŽ¥åœ¨PF9)
+	2,ä¸²å£1(æ³¢ç‰¹çŽ‡:115200,PA9/PA10è¿žæŽ¥åœ¨æ¿è½½USBè½¬ä¸²å£èŠ¯ç‰‡CH340ä¸Šé¢)
+	3,ALIENTEK 2.8/3.5/4.3/7å¯¸TFTLCDæ¨¡å—(é€šè¿‡FSMCé©±åŠ¨,FSMC_NE4æŽ¥LCDç‰‡é€‰/A6æŽ¥RS) 
+	4,RTC(å®žæ—¶æ—¶é’Ÿ)
 	
-ÊµÑéÏÖÏó:
-	±¾ÊµÑéÍ¨¹ýTFTLCDÏÔÊ¾RTCÊ±¼ä£¬²¢¿ÉÒÔÍ¨¹ýusmartÉèÖÃRTCÊ±¼ä/ÄÖÖÓ,´Ó¶øµ÷½ÚÊ±¼ä,»òÉèÖÃRTCÄÖÖÓ,
-	ÒÔ±ã´ó¼ÒÑéÖ¤RTC¹¦ÄÜ¡£ 
+å®žéªŒçŽ°è±¡:
+	æœ¬å®žéªŒé€šè¿‡TFTLCDæ˜¾ç¤ºRTCæ—¶é—´ï¼Œå¹¶å¯ä»¥é€šè¿‡usmartè®¾ç½®RTCæ—¶é—´/é—¹é’Ÿ,ä»Žè€Œè°ƒèŠ‚æ—¶é—´,æˆ–è®¾ç½®RTCé—¹é’Ÿ,
+	ä»¥ä¾¿å¤§å®¶éªŒè¯RTCåŠŸèƒ½ã€‚ 
 	
-×¢ÒâÊÂÏî: 
-	1,4.3´çºÍ7´çÆÁÐèÒª±È½Ï´óµçÁ÷,USB¹©µç¿ÉÄÜ²»×ã,ÇëÓÃÍâ²¿µçÔ´ÊÊÅäÆ÷(ÍÆ¼öÍâ½Ó12V 1AµçÔ´).
-	2,±¾Àý³ÌÔÚLCD_Initº¯ÊýÀïÃæ(ÔÚILI93xx.c),ÓÃµ½ÁËprintf,Èç¹û²»³õÊ¼»¯´®¿Ú1,½«µ¼ÖÂÒº¾§ÎÞ·¨ÏÔÊ¾!!
-	3,´®¿Ú²¨ÌØÂÊÎª115200
-	4,ÇëÓÃUSBÏßÁ¬½ÓÔÚUSB_232,ÕÒµ½USB×ª´®¿Úºó²âÊÔ±¾Àý³Ì.
-	5,P6µÄPA9/PA10±ØÐëÍ¨¹ýÌøÏßÃ±Á¬½ÓÔÚRXD/TXDÉÏ.  
+æ³¨æ„äº‹é¡¹: 
+	1,4.3å¯¸å’Œ7å¯¸å±éœ€è¦æ¯”è¾ƒå¤§ç”µæµ,USBä¾›ç”µå¯èƒ½ä¸è¶³,è¯·ç”¨å¤–éƒ¨ç”µæºé€‚é…å™¨(æŽ¨èå¤–æŽ¥12V 1Aç”µæº).
+	2,æœ¬ä¾‹ç¨‹åœ¨LCD_Initå‡½æ•°é‡Œé¢(åœ¨ILI93xx.c),ç”¨åˆ°äº†printf,å¦‚æžœä¸åˆå§‹åŒ–ä¸²å£1,å°†å¯¼è‡´æ¶²æ™¶æ— æ³•æ˜¾ç¤º!!
+	3,ä¸²å£æ³¢ç‰¹çŽ‡ä¸º115200
+	4,è¯·ç”¨USBçº¿è¿žæŽ¥åœ¨USB_232,æ‰¾åˆ°USBè½¬ä¸²å£åŽæµ‹è¯•æœ¬ä¾‹ç¨‹.
+	5,P6çš„PA9/PA10å¿…é¡»é€šè¿‡è·³çº¿å¸½è¿žæŽ¥åœ¨RXD/TXDä¸Š.  
  
+<<<<<<< HEAD
+=======
+
+>>>>>>> cf9072298535d83de77847083906c4471f1aeabb
+					
 					
 					
 					
